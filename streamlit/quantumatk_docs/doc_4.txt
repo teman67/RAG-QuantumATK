@@ -1,0 +1,2221 @@
+URL: https://docs.quantumatk.com/manual/Introduction.html#id2
+
+
+
+
+
+General — | QuantumATKX-2025.06 Documentation
+
+
+
+
+
+
+
+
+
+
+▲
+
+
+
+
+QuantumATK
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home/
+ Manual/
+General
+
+
+
+
+
+
+
+
+
+
+
+Getting started with QuantumATK
+Installation Guide
+Access to SolvNet
+Access to a License Server
+Linux only: Download and use Synopsys Installer
+Downloading, Installing and Configuring QuantumATK
+Downloading QuantumATK
+Installing QuantumATK
+Configuring the QuantumATK License
+
+
+System Requirements
+Using QuantumATK from the command line
+Troubleshooting
+Slow Startup on Windows
+libGL.so: Cannot Open Shared Object File
+libGLU.so.1: Cannot Open Shared Object File
+Could Not Find or Load the Qt Platform Plugin “xcb”
+ATKError: Exceeded Maximum Number of Self-Consistent Iterations
+Failure to Initialize
+ImportError: No Module Named
+Pulay Mixing Inversion Failed. Using Only Last Step
+Why are so many k-points needed in the transport direction in a device calculation?
+ATKError: St9bad_alloc
+Runtime Terminates an Application
+Killed by Signal 9
+Not Enough Space to Allocate vblock
+Can’t Allocate Memory for Array
+ATKError: Bad Allocation
+ATKError: Inverse(DZMatrix const&) : Could Not LU Factorize!
+Cannot Run QuantumATK P-2019.03
+Network or Nodelocked Licenses
+License for QuantumATK Parallel Run
+Basic License Troubleshooting
+Advanced License Troubleshooting
+Maintenance, Updates and Support
+License and QuantumATK Upgrading
+Updating the License File
+License Server Cannot Be Started
+SSH License Server Access
+Restricting Access to a License Server
+
+
+
+
+Introductory Tutorials
+Geometry Optimization
+Prerequisites
+Importing Structures from the NanoLab Database
+Setting up Geometry Optimization Workflow
+References
+
+
+Band Structure, Projected Density of States and Effective Mass Calculations
+Prerequisites
+Setting up Band Structure Calculation Workflow
+Analyzing Band Structure Results
+Restarting to Obtain Projected Density of States
+Analyzing Projected Density of State Results
+Calculation of Effective Masses
+References
+
+
+Optical Property Calculations
+Prerequisites
+Setting up an Optical Property Calculation Workflow
+Analyzing Results
+Outlook
+References
+
+
+Molecular Dynamics Simulations for Generating Amorphous Structures
+Prerequisites
+Setting-Up Molecular Dynamics Simulations
+Analyzing Molecular Dynamics Simulations
+References
+
+
+NEGF Simulations of Electron Transport in Devices
+Prerequisites
+Building Si p-n Junction Device
+Setting up Electron Transport Simulations for the Si p-n Junction at 0 V Bias
+Analyzing Results at 0 V Bias
+Setting up Electron Transport Simulations for the Si p-n Junction at Finite Bias
+Analyzing Results at Finite Bias
+Summary and Outlook
+References
+
+
+
+
+Feature List
+Referencing QuantumATK
+
+
+NanoLab Guides
+Overview of NanoLab
+Typical workflow
+Create atomistic structure
+Set up calculation
+Run a job
+Analyze results
+What’s next
+
+
+Projects in NanoLab
+Organize your data in the Nanolab data view
+The Nanolab Data View
+1. The File Browser
+2. The Search Field
+The advanced SQL search
+The Query Builder
+
+
+3. The Data Table
+The Quantum ID (qid)
+Unpack
+Analyzers and Preferences
+
+
+4. The Data Preview
+The Keywords
+
+
+5. The Data Filters
+6. The Data Sources
+Data Inspectors
+
+
+
+
+Builder Manual
+Introduction
+Layout and basic operations
+
+
+Importing, adding, and exporting structures
+Adding an already existing structure
+Creating a new structure
+Saving and exporting structures
+Sending the structure to other QuantumATK tools
+
+
+Mouse and key operations
+Controlling the 3D view
+Selection
+Deleting atoms
+Undo
+
+
+Using the Move Tool
+Selection control
+Translation
+Advanced Move
+
+
+Overview of built-in Builder plugins
+Builder Toolbar plugins
+Builder Panelbar plugins
+Custom builder plugins
+Supported file formats for import and export
+Third-party plugins
+
+
+Managing plugins using the AddOn Manager
+
+
+Workflows Manual
+Introduction to the Workflow Builder
+What is the Workflow Builder?
+The Workflow Builder overview
+What is a workflow block and how to edit it
+Creating a simple workflow
+Re-running a workflow
+Workflow with multiple branches
+Workflow with multiple configurations
+Block of blocks
+Common operations in the Workflow Builder
+
+
+Using Tables in the Workflow Builder
+How to collect data in a table
+How to collect data in a table using an Iteration block
+How to extract data from a table using a TableIteration block
+
+
+Introduction to Array Jobs
+How to build an array script in the Workflow Builder
+How to submit an array script
+
+
+
+
+Jobs manual
+Job Manager for local execution of QuantumATK scripts
+Execute QuantumATK simulations via the Job Manager
+Serial execution
+Threading
+MPI parallelization
+Adding Computers
+
+
+Job Manager for remote execution of QuantumATK scripts
+A single remote machine
+Custom job settings
+Debugging
+Adding several remote machines
+
+
+
+
+Plots
+Plot Gallery
+Bars
+Contour
+Density
+Density For Weighted Lines
+Filled Area
+Line And Annotations
+Line With Fit
+Linegroup
+Multiple Axes
+Rolling Average
+Scatter And Bars
+Transformed Line
+Working with Plots in NanoLab
+
+
+
+
+Manage 3D View and Select Atoms
+Rotations
+Reset View
+Zoom
+Drag
+Camera and View Planes
+Selections
+
+
+Importing and exporting files
+Import/Export files in QuantumATK
+Stash Items
+Add from Database
+Add from Files
+Add from Plugins
+Save and Export Structures
+
+
+Export XYZ, CIF, CAR, VASP Files in QuantumATK
+Built-in export filters
+Exporting from scripts
+
+
+Import XYZ, CIF, CAR, VASP Files in QuantumATK
+Drag and Drop
+Importing structures in a script
+
+
+
+
+Molecular builder
+Ethanol molecule
+Caffeine molecule
+Going further
+Export the Stash Configuration file
+
+
+Using the Crystal Builder
+Introduction
+Crystal structure of black phosphorus
+Phosphorene and its bandstructure
+Bandstructure
+
+
+References
+
+
+The Builder Console
+Special variables
+The active configuration
+The selected atoms
+The active camera
+The Builder Stash
+
+
+Console Snippets
+The console in Builder plugin development
+Questions
+
+
+AddOns
+Creating AddOns
+Disabling or Uninstalling AddOns
+Getting Addons
+Installing AddOn
+Install AddOns as limited access users
+Installing AddOns on the local system
+
+
+Failing AddOn Installation
+AddOns Location
+Updating AddOns
+What Is an AddOn
+Check Installed AddOns
+
+
+
+
+Tutorials
+New or Updated
+Training and Finetuning of MACE models
+Training a MACE model from scratch
+Naive Finetuning of foundation MACE models
+Multihead Finetuning of foundation MACE models
+Small study with additional models trained from scratch
+Validation of trained models
+Impact of important parameters
+General remarks
+Loading custom MACE models into QuantumATK
+Summary
+References
+
+
+2D Database and potentials
+Importing a Structure from the 2D Materials Database
+Creating and Setting a Calculator from a 2D Potential Set
+Phonon Bandstructure calculation
+References
+
+
+Moment Tensor Potential (MTP) Training for Crystal and Amorphous Structures
+Prerequisites
+Overview of the MTP Training Workflow
+Crystal Training Data
+Amorphous Active Learning
+Final MTP Fitting
+Submitting the MTP Training Calculation
+Analyzing MTP Training Results
+MTP Validation for Crystals
+MTP Validation for Amorphous
+Summary and Outlook
+References
+
+
+MRAM workflow in QuantumATK: Study of STT-MRAM free layer stability
+Video
+Introduction
+Workflow for calculating the free layer stability in a STT-MRAM MTJ structure
+Vampire
+References
+
+
+Generating A Magnetoresistive RAM (MRAM) Stack using the MRAM-Builder
+Introduction
+Workflow to generate the MgO-FeCo-MgO MRAM structure
+
+
+Generating A High-k Metal Gate Stack Using the HKMG-Builder
+Introduction
+Workflow
+
+
+How to select the right calculator
+The Calculator types
+The DFT Calculators (LCAO and Plane Wave)
+The Semi Empirical Calculator
+The Force Field Calculator
+
+
+Using Thermochemistry Analyzer to Compare Chemical Reactions
+Background
+Getting started
+Understanding the Thermochemistry Analyzer GUI
+Example: Temperature Window for Thermal Atomic Layer Etching of HfO2  and ZrO2 
+General Uses
+
+
+Electronic Properties of Phase Change Material Ge2Sb2Te5
+Geometry
+Bandgap Calculation
+Lattice Parameters
+Cohesive Energies
+Neutral Vacancy Formation Energies
+Total DOS With and Without Ge Vacancy
+
+
+STM simulations of tunneling anisotropic magneto resistance (TAMR)
+Introduction
+Setting up the 2LFe/W(110) structure
+Local Density of States calculations
+Analyzing the results
+Co adatom on 2LFe/W(110)
+COSMICS project
+References
+
+
+Bulk Magnetic Anisotropy Energy
+Introduction
+Theory
+MAE of FePt
+TotalEnergy calculations
+Convergence of results
+COSMICS project
+
+
+Magnetic Anisotropy Energy of Fe-MgO-Fe MTJ structure
+Introduction
+Fe-MgO-Fe MTJ structure
+MagneticAnisotropyEnergy calculation
+What causes the PMA?
+COSMICS project
+
+
+Heisenberg exchange coupling of iron and cobalt
+Introduction
+Theory
+Setting up calculations
+Analyzing the results
+COSMICS project
+References
+
+
+Building an model of an epoxy thermoset material
+Theory
+Building the thermoset model
+Analyzing the Thermoset Reaction
+Conclusions
+
+
+Analyzing the thermo-mechanical properties of a polymer material
+Glass Transition Temperature
+Young’s Modulus and Poisson Ratio
+Conclusions
+
+
+Generating A Moment Tensor Potential for HfO2  Using Active Learning
+Background
+Getting Started
+Workflow
+Step 1: Prepare Initial Reference Configurations
+Step 2: Compute Reference Data and Setup Active Learning
+Step 3: Find an MTP with Lowest Error
+Validation MD Simulation
+References
+FAQ Section
+
+
+Simulating Si Deposition using Silane
+Background
+Getting started
+Step 1: Reference Calculations
+Step 2: Adsorption and Dissociation of SiH4 
+Step 3: Formation and Desorption of H2 
+Conclusions
+References
+
+
+
+
+Semiconductors
+Phonon-limited mobility in graphene using the Boltzmann transport equation
+Geometry and electronic structure of graphene
+Phonons in Graphene
+Mobility of graphene
+Convergence of q- and k-point sampling
+Theory section
+References
+
+
+Effective mass of electrons in silicon
+Introduction
+Background
+Set up the calculation
+Analyze the results
+Going further
+References
+
+
+Spin-orbit splitting of semiconductor band structures
+Relavistic effects in Kohn-Sham DFT
+Silicon band splitting with ATK-DFT
+SO+MGGA band gap
+GaAs band structure with ATK-SE and SO coupling
+References
+
+
+Silicon p-n junction
+Silicon bulk: Slater-Koster vs DFT-MGGA
+Silicon device
+Analyzing the results
+References
+
+
+Optical Properties of Silicon
+Introduction
+Electronic structure and optical properties of silicon
+References
+
+
+NiSi2–Si interface
+Create the NiSi2/Si device
+Set-up the calculation for the undoped device
+Dope the device
+Analysis of the results
+Finite-bias calculations
+References
+
+
+Bi2Se3 topological insulator
+Build the Bi2Se3 crystal
+Bi2Se3 bulk band structure
+Bi2Se3 surface: Spin-orbit band structure
+DOS analysis: Dirac cone finger print
+Penetration depth of surface states
+Fermi surface and spin directions
+Topological Invariants
+References
+
+
+Effective band structure of random alloy InGaAs
+Methodology
+Band structures of InAs
+In0.53Ga0.47As random alloy
+Finite broadening
+Final comments
+References
+
+
+Complex bandstructure of Si(100)
+Background
+Si(100) surface
+Complex bandstructure calculation
+Analysing the results
+3D and 2D visualizations
+References
+
+
+InAs p-i-n junction
+Setting up the device geometry
+Running the calculations
+Defining the work function of the metal gate
+Performing a gate scan
+References
+
+
+Inelastic current in a silicon p-n junction
+Creating the silicon p-n junction
+Transmission calculation without electron-phonon interactions
+Transmission calculation with electron-phonon interactions
+Speeding up the calculations
+References
+
+
+Elastic scattering, mean free path, mobility: Impurity scattering in a silicon nanowire
+Introduction
+Defected silicon nanowires
+Elastic scattering mean free path
+Fermi levels in doped nanowires
+Doping dependent mobility
+Summary and discussion
+Appendix: Building the nanowires
+References
+
+
+Virtual Crystal Approximation for InGaAs random alloy simulations
+Introduction
+Setting up the VCA calculations for InxGa1-xAs
+Analyzing the results for VCA with InxGa1-xAs
+Calculating effective masses
+Summary and discussion
+References
+
+
+DFT-1/2 and DFT-PPS density functional methods for electronic structure calculations
+DFT-1/2 methods
+DFT-PPS method
+References
+
+
+Electrical characteristics of devices using the IVCharacteristics study object
+Prerequisites
+Calculation and analysis of the \(\mathrm{I_{ds}-V_{gs}}\) curve for the FET on-state
+Extending the range of the \(\mathrm{I_{ds}-V_{gs}}\) curve to the FET off-state
+Analysis of the \(\mathrm{I_{ds}-V_{gs}}\) curve in the subthreshold region
+Calculating the drain-induced barrier lowering
+References
+
+
+Formation energies and transition levels of charged defects
+Procedure for calculating the formation energy
+Setting up the calculation
+Analyzing the results
+Discussion and summary
+Appendix
+References
+
+
+Introduction
+Methods
+HSE
+Nomenclature
+Pseudopotential Projector-Shift
+
+
+Silicon
+Summary
+Convergence
+Timing
+Results
+Appendix
+References
+
+
+Germanium
+Summary
+Convergence
+Timing
+Results
+Appendix
+
+
+Si0.5Ge0.5
+Summary
+Convergence
+Timing
+Results
+Appendix
+References
+
+
+
+
+Batteries & Energy Storage
+Li-air battery interface
+Li2O2 bulk and surface structures
+Li2CO3 bulk and surface structures
+The Li2O2/Li2CO3 interface
+References
+
+
+Li-ion diffusion in LiFePO4 for battery applications
+Import LiFePO4 bulk structure
+Optimize LiFePO4 lattice parameters
+Create the Li\(_{1-x}\)FePO4 structures
+Optimize initial and final configurations
+Create initial NEB trajectories
+Optimize Li diffusion path
+Calculate the reaction rates using harmonic transition state theory
+References
+
+
+Open-circuit voltage profile of a Li-S battery: ReaxFF molecular dynamics
+Amorphous Li0.4S compound
+Simulated annealing
+Open-circuit voltage
+Full open-circuit voltage profile
+Radial distribution functions
+References
+
+
+Photocurrent in a silicon p-n junction
+Device ground state
+Photocurrent
+References
+
+
+
+
+Complex Interfaces
+Building an interface between Ag(100) and Au(111)
+Import silver and gold crystals
+Building the Ag(100) and Au(111) crystals
+Building the interface
+Building the device configuration
+
+
+Advanced device relaxation - manual workflow
+Introduction
+Preparations
+Electrode relaxation
+Central region relaxation
+1DMIN optimization of the interface using 2-probe calculations
+
+
+Relaxation of devices using the OptimizeDeviceConfiguration study object
+Introduction
+Unrelaxed Ag(100)|Ag(111) device
+Set up and run the device geometry optimization
+Relaxed device structures
+Appendix
+
+
+Atomic-scale capacitance
+Build the parallel plate capacitor
+Calculations
+Analysis
+Bias-dependent capacitance
+Dielectric spacer material
+
+
+Graphene–Nickel interface
+Creating the structure
+More configurations
+
+
+Building a Si-Si3N4 Interface
+Preparations: Two crystals
+Building the interface
+Final adjustment
+Doubling down: Buried layer model
+Interface as a device model
+
+
+NiSi2–Si interface
+Create the NiSi2/Si device
+Set-up the calculation for the undoped device
+Dope the device
+Analysis of the results
+Finite-bias calculations
+References
+
+
+Determination of low strain interfaces via geometric matching
+Method description
+Input and output description
+Example 1: Lattice match between two bulk systems
+Example 2: Lattice match between a bulk system with a predefined surface
+References
+
+
+Generating A High-k Metal Gate Stack Using the HKMG-Builder
+Introduction
+Workflow
+
+
+Generating A Magnetoresistive RAM (MRAM) Stack using the MRAM-Builder
+Introduction
+Workflow to generate the MgO-FeCo-MgO MRAM structure
+
+
+Modeling metal–semiconductor contacts: The Ag–Si interface
+Creating the device
+Projected local density of states
+Finite-bias calculations
+Note on the variation of the current
+References
+
+
+Resistivity calculations using the MD-Landauer method
+1. Theory and numerical procedure
+2. Calculation setup
+3. Data analysis
+References
+
+
+Electron transport calculations with electron-phonon coupling included via the special thermal displacement method - STD-Landauer
+Building the device
+Calculations
+Analysis and discussion
+References
+
+
+
+
+1D Nanostructures
+Transport in graphene nanoribbons
+Introduction
+Band structure of 2D graphene
+Band structure of an armchair ribbon
+Transport properties of a zigzag nanoribbon
+
+
+Transmission spectrum of a spin-polarized atomic chain
+Building the 1D carbon chain
+Spin-parallel transmission spectrum
+Spin anti-parallel transmission spectrum
+
+
+Introduction to noncollinear spin
+From collinear to noncollinear spin
+Getting started
+Spin rotation of 120°
+Analysis
+Spin-orbit interactions
+
+
+Carbon Nanotube Junctions
+Setting up the geometry
+
+
+Capping a carbon nanotube
+Build an extended (5,5) carbon nanotube
+Cut the fullerene in half
+Capping the tube
+Finalizing the geometry
+
+
+Simple carbon nanotube device
+Build and geometry optimize a short CNT
+CNT device configuration
+
+
+Thermoelectric effects in a CNT with isotope doping
+CNT device with tags for 14C doping
+Phonon transmission
+Electron transmission
+Thermoelectric transport properties
+References
+
+
+Graphene nanoribbon device: Electric properties
+Electron transmission spectrum
+Effect of the Gate Potential
+I–V characteristics
+When is the linear response approximation valid?
+Further analysis with ATK-SE
+Temperature dependent conductance
+Comparison to results for a longer device
+References
+
+
+Silicon nanowire field-effect transistor
+Introduction
+Band structure of a Si(100) nanowire
+Setting up and running the calculations
+Si(100) nanowire FET device
+Zero gate voltage calculation
+
+
+Exploring Graphene
+Build a graphene sheet
+Build a CNT
+Transmission spectrum of a GNR
+Twisted nanoribbon
+Möbius nanoribbon
+Buckling a graphene sheet
+
+
+Elastic scattering, mean free path, mobility: Impurity scattering in a silicon nanowire
+Introduction
+Defected silicon nanowires
+Elastic scattering mean free path
+Fermi levels in doped nanowires
+Doping dependent mobility
+Summary and discussion
+Appendix: Building the nanowires
+References
+
+
+
+
+2D Materials
+Meta-GGA and 2D confined InAs
+TB09 meta-GGA
+Bulk InAs band structure with TB09 meta-GGA
+Setting up and passivating an InAs slab
+Band structure with default hydrogen atoms
+Analyzing the results
+Passivation using pseudo-hydrogen
+Results
+Passivation using compensation charges
+Results
+Non-parabolicity in confined structures
+Nanowire band structure
+References
+
+
+Opening a band gap in silicene and bilayer graphene with an electric field
+Bilayer graphene
+Silicene
+References
+More reading
+
+
+Commensurate supercells for rotated graphene layers
+Additional rotated structures
+References
+
+
+Spin-dependent Bloch states in graphene nanoribbons
+Band structure of a zigzag nanoribbon
+Bloch states
+Introducing spin
+Electron density and Mulliken populations
+References
+
+
+Exploring Graphene
+Build a graphene sheet
+Build a CNT
+Transmission spectrum of a GNR
+Twisted nanoribbon
+Möbius nanoribbon
+Buckling a graphene sheet
+
+
+2D Database and potentials
+Importing a Structure from the 2D Materials Database
+Creating and Setting a Calculator from a 2D Potential Set
+Phonon Bandstructure calculation
+References
+
+
+
+
+Phonons & Thermal Transport
+Calculating and using Dynamical Matrix
+Prerequisites
+Create the Workflow
+LCAOCalculator Settings
+Lattice optimization Settings
+Dynamical matrix Settings
+Running the calculation
+Analyzing the results
+Speeding up the calculation with ForceFields
+
+
+Vibrational modes and Vibration Visualizer
+MoS2 monolayer
+Nanophononic metamaterials
+
+
+Phonons, Bandstructure and Thermoelectrics
+Introduction
+Phonon Bandstructure of a Graphene Nanoribbon
+Analyzing the Results
+Algorithmic Details of the Phonon Calculator
+Calculating Electrical and Heat Transport for a Graphene Nanoribbon
+
+
+Phonon-limited mobility in graphene using the Boltzmann transport equation
+Geometry and electronic structure of graphene
+Phonons in Graphene
+Mobility of graphene
+Convergence of q- and k-point sampling
+Theory section
+References
+
+
+Thermoelectric effects in a CNT with isotope doping
+CNT device with tags for 14C doping
+Phonon transmission
+Electron transmission
+Thermoelectric transport properties
+References
+
+
+Inelastic Electron Spectroscopy of an H2 molecule placed between 1D Au chains
+Introduction
+Device setup
+Calculation of IETS
+Analysis
+References
+
+
+Using Thermochemistry Analyzer to Compare Chemical Reactions
+Background
+Getting started
+Understanding the Thermochemistry Analyzer GUI
+Example: Temperature Window for Thermal Atomic Layer Etching of HfO2  and ZrO2 
+General Uses
+
+
+Interfacial thermal conductance
+Introduction
+Reverse non-equilibrium molecular dynamics (RNEMD)
+Non-equilibrium Green’s function method
+References
+
+
+
+
+Molecular Dynamics
+How to Setup Basic Molecular Dynamics Simulations
+Pre-requisites
+NVE Simulations
+NVT Simulations
+NPT Simulations
+Conclusion
+
+
+Simulating Thin Film Growth via Vapor Deposition
+Introduction
+Simulation Strategies
+Preparing the System
+Setting up the Deposition Simulation
+Running the Simulation
+General Remarks
+
+
+Simulating Si Deposition using Silane
+Background
+Getting started
+Step 1: Reference Calculations
+Step 2: Adsorption and Dissociation of SiH4 
+Step 3: Formation and Desorption of H2 
+Conclusions
+References
+
+
+Simulating Ion Bombardment on Graphene Sheets
+Setting up the Graphene Sheet:
+Adding a Bombardment Atom
+Setting up the Simulation
+Modifying the Script
+References
+
+
+Uniaxial and Biaxial Stress in Silicon
+Introduction
+Uniaxial Stress
+Biaxial Stress
+
+
+Adding, Combining, and Modifying Classical Potentials
+Introduction
+Adding a New Classical Potential from Scratch
+A Potential for Amorphous Oxides
+Combining a Tersoff and a Lennard-Jones Potential
+Intra- and Inter-Layer Cohesion in MoS2
+
+
+Generating Amorphous Structures
+Introduction
+Amorphous Structure Generation with Classical MD Simulations
+Refining Amorphous Structures
+Creating Crystal/Amorphous Interfaces
+Further Examples
+
+
+Young’s modulus of a CNT with a defect
+CNT bulk configuration
+Configuring the MD simulation
+Adding Python hooks
+Computing Young’s modulus
+Visualize and analyse the results
+References
+
+
+Interfacial thermal conductance
+Introduction
+Reverse non-equilibrium molecular dynamics (RNEMD)
+Non-equilibrium Green’s function method
+References
+
+
+Diffusion in Liquids from Molecular Dynamics Simulations
+Theory
+Computational Procedure
+Analysis
+
+
+Simulating a creep experiment of polycrystalline copper
+Installing the polycrystal builder plugin
+Building the polycrystalline cell
+Analyzing the grain structure
+Setting up the creep simulation
+Running the simulation
+Analyzing the results
+Outlook
+References
+
+
+Metadynamics Simulation of Cu Vacancy Diffusion on Cu(111) - Using PLUMED
+Introduction
+Theoretical Background
+Metadynamics Simulation of Cu Vacancy on Cu(111)
+References
+
+
+Open-circuit voltage profile of a Li-S battery: ReaxFF molecular dynamics
+Amorphous Li0.4S compound
+Simulated annealing
+Open-circuit voltage
+Full open-circuit voltage profile
+Radial distribution functions
+References
+
+
+Viscosity in liquids from molecular dynamics simulations
+Theory
+Computational procedure
+Analyzing the results
+Extending the results
+
+
+Building an model of an epoxy thermoset material
+Theory
+Building the thermoset model
+Analyzing the Thermoset Reaction
+Conclusions
+
+
+Analyzing the thermo-mechanical properties of a polymer material
+Glass Transition Temperature
+Young’s Modulus and Poisson Ratio
+Conclusions
+
+
+Moment Tensor Potential (MTP) Training for Crystal and Amorphous Structures
+Prerequisites
+Overview of the MTP Training Workflow
+Crystal Training Data
+Amorphous Active Learning
+Final MTP Fitting
+Submitting the MTP Training Calculation
+Analyzing MTP Training Results
+MTP Validation for Crystals
+MTP Validation for Amorphous
+Summary and Outlook
+References
+
+
+Generating A Moment Tensor Potential for HfO2  Using Active Learning
+Background
+Getting Started
+Workflow
+Step 1: Prepare Initial Reference Configurations
+Step 2: Compute Reference Data and Setup Active Learning
+Step 3: Find an MTP with Lowest Error
+Validation MD Simulation
+References
+FAQ Section
+
+
+Training and Finetuning of MACE models
+Training a MACE model from scratch
+Naive Finetuning of foundation MACE models
+Multihead Finetuning of foundation MACE models
+Small study with additional models trained from scratch
+Validation of trained models
+Impact of important parameters
+General remarks
+Loading custom MACE models into QuantumATK
+Summary
+References
+
+
+
+
+Molecular Electronics
+Building molecule–surface systems: Benzene on Au(111)
+Summary of workflow
+Detailed instructions
+References
+
+
+Building a molecular junction
+Benzene to DTB: Building the molecule
+Cleaving gold into two surfaces
+Combining the molecule and the surfaces
+Converting the central region to a device configuration
+References
+
+
+Molecular Device
+Zero-bias calculation
+Analysis of the zero-bias results
+I-V characteristics
+References
+
+
+Inelastic Electron Spectroscopy of an H2 molecule placed between 1D Au chains
+Introduction
+Device setup
+Calculation of IETS
+Analysis
+References
+
+
+
+
+Spintronics
+Spin Transfer Torque
+Introduction
+Getting Started
+Calculate the STT
+Angle Dependence
+References
+
+
+Transmission spectrum of a spin-polarized atomic chain
+Building the 1D carbon chain
+Spin-parallel transmission spectrum
+Spin anti-parallel transmission spectrum
+
+
+Introduction to noncollinear spin
+From collinear to noncollinear spin
+Getting started
+Spin rotation of 120°
+Analysis
+Spin-orbit interactions
+
+
+Spin transport in magnetic tunnel junctions
+Introduction
+Getting started
+Parallel spin
+Anti-parallel spin
+Tunneling magnetoresistance
+Adaptive k-point grid
+Spin-transfer torque
+Relaxing the device central region
+References
+
+
+Relativistic effects in bulk gold
+GGA band structure
+Spin-orbit GGA band structure
+References
+
+
+Spin-orbit splitting of semiconductor band structures
+Relavistic effects in Kohn-Sham DFT
+Silicon band splitting with ATK-DFT
+SO+MGGA band gap
+GaAs band structure with ATK-SE and SO coupling
+References
+
+
+Bi2Se3 topological insulator
+Build the Bi2Se3 crystal
+Bi2Se3 bulk band structure
+Bi2Se3 surface: Spin-orbit band structure
+DOS analysis: Dirac cone finger print
+Penetration depth of surface states
+Fermi surface and spin directions
+Topological Invariants
+References
+
+
+Noncollinear calculations for metallic nanowires
+Building the device
+Setting up the collinear calculation and analyzing the results
+Setting up the noncollinear calculation
+Analyzing the results
+Including spin-orbit coupling in noncollinear calculations
+References
+
+
+Electronic structure of NiO with DFT+U
+Introduction
+The electronic structure of NiO calculated with DFT
+DFT+U calculation for the NiO crystal
+References
+
+
+Bulk Magnetic Anisotropy Energy
+Introduction
+Theory
+MAE of FePt
+TotalEnergy calculations
+Convergence of results
+COSMICS project
+
+
+Magnetic Anisotropy Energy of Fe-MgO-Fe MTJ structure
+Introduction
+Fe-MgO-Fe MTJ structure
+MagneticAnisotropyEnergy calculation
+What causes the PMA?
+COSMICS project
+
+
+STM simulations of tunneling anisotropic magneto resistance (TAMR)
+Introduction
+Setting up the 2LFe/W(110) structure
+Local Density of States calculations
+Analyzing the results
+Co adatom on 2LFe/W(110)
+COSMICS project
+References
+
+
+Heisenberg exchange coupling of iron and cobalt
+Introduction
+Theory
+Setting up calculations
+Analyzing the results
+COSMICS project
+References
+
+
+Generating A Magnetoresistive RAM (MRAM) Stack using the MRAM-Builder
+Introduction
+Workflow to generate the MgO-FeCo-MgO MRAM structure
+
+
+MRAM workflow in QuantumATK: Study of STT-MRAM free layer stability
+Video
+Introduction
+Workflow for calculating the free layer stability in a STT-MRAM MTJ structure
+Vampire
+References
+
+
+
+
+Materials, Surfaces and Chemistry
+Polymer Builder
+Procedure of the Polymer Builder
+
+
+Green’s function surface calculations
+Atomistic models of a surface
+NEGF calculation with a single electrode
+Work function of Ag(100)
+Convergence wrt. metal layers
+
+
+Polarization
+Introduction
+Modern theory of polarization
+Spontaneous polarization of ferroelectric BaTiO3
+References
+
+
+Vibrational modes and Vibration Visualizer
+MoS2 monolayer
+Nanophononic metamaterials
+
+
+Visualize the LUMO state of a water molecule
+Building the molecule
+Calculating the LUMO state
+
+
+How to calculate reaction barriers using the Nudged Elastic Band (NEB) method
+Create the initial and final states for the NEB
+Set up and run the NEB calculations
+Analyze the results
+Summary
+References
+
+
+Ammonia inversion reaction barrier using DFTB and NEB
+Setting up the NEB object
+Performing the NEB simulation
+Analyzing the NEB simulation
+A recipe for faster calculations
+
+
+Reconstruction of the Si (100) surface - a geometry optimization study with QuantumATK
+Introduction
+Building the geometry
+Setting up the calculation
+Results
+Summary
+
+
+Computing the work function of a metal surface using ghost atoms
+Why use ghost atoms?
+Setting up the geometry
+Defining the parameters of the calculation
+Calculation and analysis
+Comments
+
+
+Tuning the work function of silver by deposition of ultrathin oxide layers
+Ag(100) and MgO(100) surfaces
+Ag/MgO interface
+DFT calculations
+Analyzing the results
+1D Projector plugin
+References
+
+
+Calculating Reaction Rates using Harmonic Transition State Theory
+Introduction
+Modeling Pt Adatom Diffusion on Pt(100)
+Calculating the Rate for Multiple Elementary Reaction Steps
+References
+
+
+Simulating Si Deposition using Silane
+Background
+Getting started
+Step 1: Reference Calculations
+Step 2: Adsorption and Dissociation of SiH4 
+Step 3: Formation and Desorption of H2 
+Conclusions
+References
+
+
+Calculation of Formation Energies
+Formation energy calculations (or cohesive energy)
+Cohesive energy of a bulk system
+Defect formation energy calculations
+References
+
+
+Uniaxial and Biaxial Stress in Silicon
+Introduction
+Uniaxial Stress
+Biaxial Stress
+
+
+Elastic constants
+Methodology
+Calculating elastic constants using classical potentials
+Calculate elastic constants using DFT
+
+
+Young’s modulus of a CNT with a defect
+CNT bulk configuration
+Configuring the MD simulation
+Adding Python hooks
+Computing Young’s modulus
+Visualize and analyse the results
+References
+
+
+Relativistic effects in bulk gold
+GGA band structure
+Spin-orbit GGA band structure
+References
+
+
+Geometry optimization: CO/Pd(100)
+Bulk palladium
+Build the Pd(100) surface and relax it
+Relax the CO/Pd(100) system
+Relax the CO molecule
+Adsorption energy
+
+
+Modeling Vacancy Diffusion in Si0.5 Ge0.5 with AKMC
+Obtaining an Initial Structure
+Running the AKMC Simulation
+Conclusion
+
+
+Computing the piezoelectric tensor for AlN
+Introduction
+Computing the piezoelectric tensor
+Alternative way of calculating the piezoelectric coefficient \({e}_{33}\)
+Computing the Born effective charge
+References
+
+
+Formation energies of charged defects - manual workflow
+Procedure for calculating the formation energy
+Neutral As vacancy in GaAs
+Charged As vacancies in GaAs
+Appendix
+References
+
+
+Boron diffusion in bulk silicon
+Creating the B-doped Si crystal
+Running the AKMC simulation
+
+
+Adaptive Kinetic Monte Carlo Simulation of Pt Island Ripening
+Introduction
+Creating the initial configuration
+Setting up the AKMC Simulation
+Running the Simulation
+Analyzing the AKMC Simulation
+Conclusion
+References
+
+
+Adaptive Kinetic Monte Carlo Simulation of Pt on Pt(100)
+Introduction
+The AKMC method
+Creating the initial configuration
+Creating the AKMC script
+Analyzing the results
+Conclusion
+References
+
+
+Crystal Structure Prediction Scripter: Phases of TiO2
+Setting up the calculation
+Running the calculations and analyzing results
+References
+
+
+Electronic structure of NiO with DFT+U
+Introduction
+The electronic structure of NiO calculated with DFT
+DFT+U calculation for the NiO crystal
+References
+
+
+DFT-D and basis-set superposition error
+The DFT-D dispersion corrections
+D2 correction
+D3 correction
+BSSE and the counterpoise correction
+Set-up the graphene bilayer system
+Geometry optimization without counterpoise correction
+Including the counterpoise correction
+Including the D2 dispersion correction
+Including the D3 dispersion correction
+Summary of the results
+References
+
+
+Formation energies and transition levels of charged defects
+Procedure for calculating the formation energy
+Setting up the calculation
+Analyzing the results
+Discussion and summary
+Appendix
+References
+
+
+Using Thermochemistry Analyzer to Compare Chemical Reactions
+Background
+Getting started
+Understanding the Thermochemistry Analyzer GUI
+Example: Temperature Window for Thermal Atomic Layer Etching of HfO2  and ZrO2 
+General Uses
+
+
+Electronic Properties of Phase Change Material Ge2Sb2Te5
+Geometry
+Bandgap Calculation
+Lattice Parameters
+Cohesive Energies
+Neutral Vacancy Formation Energies
+Total DOS With and Without Ge Vacancy
+
+
+
+
+Miscellaneous
+The DFTB model in ATK-SE
+Installing DFTB parameters
+Testing the installation
+Spin polarized calculations with DFTB
+
+
+Accessing QuantumATK internal variables
+Internal matrices accessible in QuantumATK
+Multi-terminal conduction
+Transmission projection
+AC conductance
+References
+
+
+Slater-Koster tight-binding models in ATK-SE
+Introduction
+Onsite matrix element
+Offsite matrix elements
+Defining the full Slater-Koster table
+Silicon band structure
+Adding hydrogen
+Band gaps of passivated silicon nanowires
+References
+
+
+Linear response current – how to compute it, and why it is often not a good idea
+Make Movies from QuantumATK Trajectory Files
+Creating Animated GIF
+Rotation Animator
+Movie from Trajectory Files
+
+
+Converting lattices: Rhombohedral to hexagonal and back
+Conversion between hP and hR representations
+Converting hP supercell to hR primitive cell
+Crystal classifications
+References
+
+
+Reusing electrodes in device calculations
+Separate scripts for electrodes and device
+
+
+Initialize from a converged state
+Introduction
+Examples
+
+
+Restarting a stopped calculation
+Saving the checkpoint file
+Restarting the calculation from the checkpoint file
+
+
+Compute quantities from converged simulations
+POV-Ray images from QuantumATK
+Elementary functionalities through an example
+Examining the .pov file
+Exporting pictures with POV-Ray
+
+
+Generating A High-k Metal Gate Stack Using the HKMG-Builder
+Introduction
+Workflow
+
+
+Generating A Magnetoresistive RAM (MRAM) Stack using the MRAM-Builder
+Introduction
+Workflow to generate the MgO-FeCo-MgO MRAM structure
+
+
+How to select the right calculator
+The Calculator types
+The DFT Calculators (LCAO and Plane Wave)
+The Semi Empirical Calculator
+The Force Field Calculator
+
+
+Transport calculations with QuantumATK
+Introduction
+Geometry for transport calculations
+Getting started
+Convergence of electrode parameters
+Zero-bias analysis
+Finite-bias calculations
+Summary
+
+
+Calculate the band structure of a crystal
+Start QuantumATK and create a new project
+Import the Silicon structure from the Database and send it to the Scripter
+Set up the calculation and analyse the band structure
+
+
+Phonons, Bandstructure and Thermoelectrics
+Introduction
+Phonon Bandstructure of a Graphene Nanoribbon
+Analyzing the Results
+Algorithmic Details of the Phonon Calculator
+Calculating Electrical and Heat Transport for a Graphene Nanoribbon
+
+
+Introducing the QuantumATK plane-wave DFT calculator
+Introduction
+
+
+How to calculate reaction barriers using the Nudged Elastic Band (NEB) method
+Create the initial and final states for the NEB
+Set up and run the NEB calculations
+Analyze the results
+Summary
+References
+
+
+Carbon Nanotube Junctions
+Setting up the geometry
+
+
+Capping a carbon nanotube
+Build an extended (5,5) carbon nanotube
+Cut the fullerene in half
+Capping the tube
+Finalizing the geometry
+
+
+Simple carbon nanotube device
+Build and geometry optimize a short CNT
+CNT device configuration
+
+
+Building a Si-Si3N4 Interface
+Preparations: Two crystals
+Building the interface
+Final adjustment
+Doubling down: Buried layer model
+Interface as a device model
+
+
+Build a graphene nanoribbon transistor
+Small nanoribbon transistor
+A longer nanoribbon transistor
+
+
+Commensurate supercells for rotated graphene layers
+Additional rotated structures
+References
+
+
+Nanosheet with a hole
+MoS2 Nanotubes
+Graphene–Nickel interface
+Creating the structure
+More configurations
+
+
+Stone–Wales Defects in Nanotubes
+Creating the defect and wrapping the tube
+Optimizing the structure
+Transmission spectrum
+References
+
+
+Building a molecular junction
+Benzene to DTB: Building the molecule
+Cleaving gold into two surfaces
+Combining the molecule and the surfaces
+Converting the central region to a device configuration
+References
+
+
+
+
+
+
+Manual
+General
+Introduction
+New in QuantumATK X-2025.06
+Installing and running the software
+How to read this manual
+
+
+
+
+Atomic-Scale Calculators
+DFT: LCAO
+Introduction
+Background information
+
+
+DFT: Plane Wave
+Introduction
+Background information
+
+
+Semi Empirical
+Introduction
+Background information
+Parameters
+
+
+Force Field
+Introduction
+TremoloX
+TremoloX potential classes
+Neural network based force field parameter sets
+How to choose the right pretrained neural network based force field
+TremoloX potential parameter sets
+Pretrained moment tensor potential (MTP) parameter sets
+
+
+NEGF: Device Calculators
+Introduction
+Device configuration
+Non-equilibrium electron distribution
+Effective potential
+Total energy and forces
+Transmission coefficient
+Electrical current
+References
+
+
+
+
+Python in QuantumATK
+ATK-Python
+Python packages in QuantumATK
+Using NumPy with QuantumATK
+Cloning of QuantumATK Python objects
+Plotting using pylab
+
+
+Physical quantities and units
+Usage Examples
+Units available in QuantumATK
+
+
+Read and Write Support
+HDF5 (Default File Format)
+
+
+Metatext
+Spin
+Usage Example
+Note about Spin.All
+Note on Spin in low level interface functions
+
+
+Command Line Usage with QATK Shell Environments
+Introduction
+Use QuantumATK effectively from CLI: Shell Environments
+Customize the environment: Python venvs
+
+
+
+
+QuantumATK Reference Manual
+Geometry
+Lattices
+
+
+Calculators
+Common Parameters
+DFT Calculators
+MBPT Calculators
+Semi-Empirical Calculator
+Counterpoise Correction
+Low level entities
+
+
+Analysis
+Common Analysis
+Bulk Analysis
+Device Analysis
+DFT + U
+
+
+Study
+Dynamics and Optimization
+Optimization
+Molecular Dynamics
+Surface Process Simulation
+Moment Tensor Potential
+Monte Carlo
+Hyperdynamics
+Constraints
+MD Analysis
+Image Interpolation Algorithms (NEB)
+
+
+Defects
+Characterization
+Migration
+
+
+COSMO-RS
+Material Descriptions
+Properties
+Stored Data
+
+
+Polymers
+Builders And Equilibration
+Potentials
+Analysis
+
+
+Input and Output
+Periodic Table
+Utilities
+Plot
+NanoLab Plot Reference Manual
+Plot
+
+
+Full QuantumATK package
+QuantumATK
+
+
+
+
+Technical Notes
+Poisson solvers
+The Hartree potential
+Boundary conditions
+Boundary Conditions in NEGF
+Dielectric and metallic regions
+Poisson solvers
+References
+
+
+Occupation Methods
+Background
+Comparison of smearing methods
+References
+
+
+Pseudopotentials and basis sets available in QuantumATK
+Pseudopotentials
+LCAO basis sets
+Accuracy tests for elemental solids
+Accuracy tests for mixed solids
+Notes for each pseudopotential type
+References
+
+
+Doping methods available in QuantumATK
+General background
+Explicit charge
+Atomic compensation charges
+
+
+Optical response functions
+Linear response coefficients
+
+
+Hybrid Functionals
+Background
+ACE Implementation
+Usage Examples
+References
+
+
+NEGF Convergence Guide
+Introduction
+Zero-bias NEGF calculations
+Finite-bias NEGF calculations
+SCF iteration control parameters
+Contact support
+
+
+Spin-Polarized NEGF Convergence Guide
+Systems investigated
+Calculating the self-energy matrix
+Zero and finite-bias convergence: mixing parameters
+Zero and finite-bias convergence: electrode-length and k-point sampling
+Electrode validator
+Contact support
+
+
+Noncollinear spins and spin transfer torque in devices
+Parallelization of QuantumATK calculations
+Unit-of-work
+Parallelization levels in QuantumATK
+Bulk calculations
+NEGF calculations
+Examples of multi-level parallelisms in QuantumATK
+References
+
+
+GPU acceleration of proprietary feature calculations
+Enabling GPU acceleration
+LCAOCalculator and SemiEmpiricalCalculator
+DeviceLCAOCalculator and DeviceSemiEmpiricalCalculator
+Poisson solvers
+Force Field
+Machine-learned Force Field Training
+Parallelization
+Performance tips for DFT and Semi-Empirical
+Examples
+
+
+Performance troubleshooting guide
+Running out of memory?
+Want to make it run faster?
+
+
+Study objects
+Restart example
+
+
+Finding Transition States
+Nudged Elastic Band
+Minimum Mode Following Techniques
+Best Practices and Recommendations
+References
+
+
+Molecular Dynamics
+Introduction
+Methodology
+NVE Simulations
+NVT Simulations
+NPT Simulations
+Non-Equilibrium Simulations
+MD Simulations with Constraints
+Device Configurations
+Molecules
+
+
+Charged Point Defects
+Defining defects
+Pristine Reference Configuration
+Chemical Potentials in Compound Materials
+Charged Point Defect Calculation
+Analyzing charged point defect calculations
+Defect migration
+Diffusivity of defects
+Analyzing Diffusion Results
+
+
+\(G_0W_0\) calculator in QuantumATK
+Imaginary time and frequency grid
+Coulomb integrals and Polarizability using Auxiliary Basis Sets and PARI
+Greens functions in imaginary time
+Polarizability in imaginary time
+Transform from imaginary time to imaginary frequency
+Dielectric tensor and screened Coulomb potential
+Exchange and correlation Self-energy calculation
+Solving the quasi-particle equation to get the band energies
+Schematic view of the algorithm
+\(\Gamma\) point correction for k-point convergence
+Parallelization of the algorithm
+Usage Examples
+References
+
+
+External machine-learned force fields in QuantumATK
+Setting up the virtual environment
+SevenNet
+Orb models
+DeePMD-kit
+MatterSim
+CHGnet
+FAIRChem UMA
+Other Models
+
+
+
+
+Atomic data
+Element data
+Built-in semiempirical parameter sets in QuantumATK
+Slater–Koster basis sets
+Extended Hückel basis sets
+
+
+
+
+Sentaurus Materials Workbench Reference Manual
+Introduction
+Material specifications
+Single defect specification and convergence studies
+Multilayer Builder
+GrainBoundaryScattering
+Full SMW package
+SMW
+
+
+
+
+
+
+Publications
+Referencing
+List of Publications
+
+
+
+  
+    
+
+
+QuantumATK
+
+
+
+
+General¶
+
+Introduction¶
+QuantumATK packages a powerful set of tools for calculating
+properties of nano-scale systems. These atomic-scale calculators
+are based on density functional theory,
+semi-empirical tight binding, and classical potentials. The non-equilibrium Green’s
+function method is a unique feature of QuantumATK; it allows simulations on
+nano-scale devices and interfaces, including support for non-zero bias
+between the electrode leads and device components such as electrostatic
+gates and dielectrics.
+More information may be found at the QuantumATK website.
+
+
+
+
+
+
+Fig. 136 Typical device systems; a high-k metal gate stack (top)
+and a field-effect transistor made of 2D materials (bottom),
+both with left and right semi-infinite electrode leads.
+One unique capability of QuantumATK is to simulate the electron
+transport through such two-probe systems. Gate electrodes may be included
+as non-current-carrying electrostatic gates (bright regions in the 2D-FET above),
+and regions of a particular dielectric constant may also be defined
+(pink regions in the 2D-FET above). One-probe systems with only
+a single electrode are also supported.¶
+
+
+ATK is controlled using ATK-Python, which is
+an extension to the well-established Python scripting language. Setting
+up and executing QuantumATK calculations is therefore done in an ATK-Python
+script or directly from the command line in an interactive Python shell.
+The main purpose of this manual is to document all QuantumATK functionality.
+The QuantumATK Reference Manual therefore gives a detailed summary of all input and output
+parameters, as well as notes on relevant theory and usage examples.
+We also provide a thorough exposition of the theoretical background for the
+atomic-scale simulators implemented in QuantumATK (see Atomic-Scale Calculators),
+and a detailed introduction to Python scripting and using ATK-Python
+to control QuantumATK (see Python in QuantumATK).
+For tutorials on how to use QuantumATK we refer to the
+Tutorials website.
+
+New in QuantumATK X-2025.06¶
+The X-2025.06 release of QuantumATK introduces a range of new features and
+performance improvements and an overview is given here: Release Overview. For a comprehensive list, see the full release notes, which can be found on the SolvNet portal.
+
+Tip
+For the full list of changes, see the release notes for the feature release, i.e. X-2025.06.
+The release notes for a service pack release will only list the changes relative to the feature release.
+
+
+
+Installing and running the software¶
+The QuantumATK binary installer is available for registered users at the SolvNet
+software portal. Access to a valid QuantumATK license is also needed.
+Detailed instructions are given in the Installation Guide.
+Note that a license is required and if your institution does not already have a license, you can request an evaluation license via the Synopsys Eval Portal.
+When QuantumATK has been installed on your machine you can run it from the command line
+using the atkpython executable and
+a QuantumATK Python script. The executable should be in your PATH and is available here: .../QuantumATK-VERSION/bin/atkpython.
+Parallel execution
+ATK supports multi-level parallelism, using the
+Message Passing Interface (MPI)
+available on most supercomputing clusters for distributed memory parallelism,
+and OpenMP for shared memory parallelism. QuantumATK ships with Intel MPI, which you can find here: .../QuantumATK-VERSION/mpi/bin/mpiexec.hydra
+
+
+How to read this manual¶
+This manual is typeset using in-line references to QuantumATK Python objects and functions,
+and contains several script examples. The following style conventions are used:
+
+All QuantumATK objects and functions appear as links, e.g. MoleculeConfiguration.
+The link will take you to the relevant section of the QuantumATK Reference Manual,
+where a detailed description of the object “MoleculeConfiguration” is provided.
+References to particular chapters and sections are also links. For example,
+the links For-loops and Tuples direct you
+to specific sections in the chapter Python in QuantumATK.
+Boldface letters are used to highlight specific words, e.g. atkpython, while
+in-line names of Python variables, functions, parameters, and methods are in general
+typeset using a monospace serif, e.g. list_of_atoms for a Python variable
+and cartesianCoordinates() for a method of the MoleculeConfiguration object.
+In-line names of files and directories are also typeset using a monospace serif, e.g.
+file.txt and $HOME/QuantumATK/.
+Python structures are visually enclosed in a box and typeset using a monospaced serif:
+# This is a comment
+
+for i in range(3):
+    print(i)
+
+
+Scripts can often be downloaded by following a link, e.g.
+example_code.py.
+
+Instructions for using the command line are indicated by the $ prefix:
+$ atkpython script.py
+
+
+while instructions for using an interactive Python session is indicated by
+the >>> prefix:
+>>> myList = [1, 2, 3, 4, 5]
+>>> print(myList)
+[1, 2, 3, 4, 5]
+>>> print(len(myList))
+5
+
+
+
+
+
+
+
+
+
+
+
+
+© 2025 Synopsys, Inc.Visit SolvNetPlus
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
