@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  quantumatk-rag:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./quantumatk_kb:/app/quantumatk_kb
+      - ./logs:/app/logs
+      - ./config.json:/app/config.json
+    environment:
+      - FLASK_ENV=production
+    restart: unless-stopped
